@@ -38,7 +38,7 @@ class EstacaoEnergiaController extends Controller
                 "Corrente_Fase_S_A" =>$request->Corrente_Fase_S_A,
                 "Corrente_Fase_T_A" =>$request->Corrente_Fase_T_A,
                 "Demanda_kW" =>$request->Demanda_kW,
-                "Potencia_Ativa_kW" =>$request->Potencia_Ativa_kW,
+                "Potencia_Ativa_kW" =>$request->Potencia_Ativa_kW
             ]);
         }catch(Exception){
             return response("Requisição feita de maneira incorreta", 400);
