@@ -1,0 +1,66 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\EstacaoEnergiaModel;
+use Illuminate\Http\Request;
+use Exception;
+
+class EstacaoEnergiaController extends Controller
+{
+    public function __construct()
+    {
+        //
+    }
+
+    // Consulta por ID
+    public function mostrarPorId($id)
+    {
+        return EstacaoEnergiaModel::findOrFail($id);
+    }
+
+    // Consulta total
+    public function mostrarTodos()
+    {
+        return EstacaoEnergiaModel::all();
+    }
+
+    // Criar um novo dado
+    public function inserir(Request $request)
+    {   
+        try{
+            return EstacaoEnergiaModel::create([
+                "Data_Registro" => $request->Data_Registro,
+                "Tensao_Fase_RS_V" =>$request->Tensao_Fase_RS_V,
+                "Tensao_Fase_ST_V" =>$request->Tensao_Fase_ST_V,
+                "Tensao_Fase_TR_V" =>$request->Tensao_Fase_TR_V,
+                "Corrente_Fase_R_A" =>$request->Corrente_Fase_R_A,
+                "Corrente_Fase_S_A" =>$request->Corrente_Fase_S_A,
+                "Corrente_Fase_T_A" =>$request->Corrente_Fase_T_A,
+                "Demanda_kW" =>$request->Demanda_kW,
+                "Potencia_Ativa_kW" =>$request->Potencia_Ativa_kW,
+            ]);
+        }catch(Exception){
+            return response("Requisição feita de maneira incorreta", 400);
+        }
+    }
+
+    // Deletar dado
+    public function deletar($id)
+    {
+        $dadoExcluido = EstacaoEnergiaModel::findOrFail($id);
+        $dadoExcluido->delete();
+        return $dadoExcluido;
+    }
+
+
+    // Alterar dado
+    public function alterar($id, Request $request)
+    {
+        $dadoASerAlterado = EstacaoEnergiaModel::findOrFail($id);
+        foreach ($request->except('_token') as $chave => $valor){
+            $dadoASerAlterado->update([$chave => $valor]);
+        }
+        return $dadoASerAlterado;
+    }
+}
