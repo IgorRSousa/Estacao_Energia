@@ -11,14 +11,14 @@ return new class extends Migration
         Schema::create('estacao_energia', function (Blueprint $table) {
             $table->id();
             $table->dateTime("Data_Registro");
-            $table->double("Tensao_Fase_RS_V");
-            $table->double("Tensao_Fase_ST_V");
-            $table->double("Tensao_Fase_TR_V");
-            $table->double("Corrente_Fase_R_A");
-            $table->double("Corrente_Fase_S_A");
-            $table->double("Corrente_Fase_T_A");
-            $table->double("Demanda_kW");
-            $table->double("Potencia-Ativa_kW");
+            $table->float("Tensao_Fase_RS_V");
+            $table->float("Tensao_Fase_ST_V");
+            $table->float("Tensao_Fase_TR_V");
+            $table->float("Corrente_Fase_R_A");
+            $table->float("Corrente_Fase_S_A");
+            $table->float("Corrente_Fase_T_A");
+            $table->float("Demanda_kW");
+            $table->float("Potencia_Ativa_kW");
         });
     }
 
