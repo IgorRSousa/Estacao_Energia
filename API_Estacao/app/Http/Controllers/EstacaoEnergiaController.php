@@ -14,13 +14,13 @@ class EstacaoEnergiaController extends Controller
     }
 
     // Consulta por ID
-    public function mostrarPorId($id)
+    public function consultaPorId($id)
     {
         return EstacaoEnergiaModel::findOrFail($id);
     }
 
     // Consulta total
-    public function mostrarTodos()
+    public function consultarTodos()
     {
         return EstacaoEnergiaModel::all();
     }
