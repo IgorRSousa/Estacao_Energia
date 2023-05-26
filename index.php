@@ -14,7 +14,8 @@
     <title>Resultado Mineração</title>
 </head>
 <body>
-<canvas id="myChart"></canvas>
+<canvas id="myChart1"></canvas>
+<canvas id="myChart2"></canvas>
 
 <?php
     $request = $_SERVER['REQUEST_URI'];
