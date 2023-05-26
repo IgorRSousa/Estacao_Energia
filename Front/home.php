@@ -1,4 +1,3 @@
-
 <script>
 const ctx = document.getElementById('myChart');
 
