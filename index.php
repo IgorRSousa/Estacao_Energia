@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="Front/bulma/css/bulma.min.css">
     
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="node_modules/chart.js/dist/chart.umd.js"></script>
 
     <title>Resultado Mineração</title>
 </head>
