@@ -3,22 +3,6 @@
     $dado = file_get_contents($url);
     $jsonDados = json_decode($dado);
     $mes = 7;
-    
-    print("<h1 class='titulos'>Potencia Ativa</h1>");
-
-    print('<div class="columns">');
-    foreach($jsonDados as $chave => $valor){
-        print "<div id='PotenciaAtiva' class='box column'>
-                    <h1>Media Mensal: $mes/2022</h1>
-                    <h1>Potenctencia Ativa (kW)</h1>
-                    <h1 class ='potencia'>$chave kW</h1>
-                </div>";
-              
-        $mes = $mes + 1;
-        }
-    print('</div>');
-
-    print('<canvas id="myChart4"></canvas>');
 
     print("<h1 class='titulos'>Demanda de Potencia</h1>");
 
