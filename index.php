@@ -86,7 +86,7 @@
     <footer id="footer" class="footer">
         <div class="content has-text-centered">
             <p>
-                <strong>Estação de Energia</strong> by <a href="https://github.com/IgorRSousa">Igor Sousa</a>.
+                <strong>Estação de Energia</strong> by <a href="https://github.com/IgorRSousa" target="_blank">Igor Sousa</a>.
             </p>
         </div>
     </footer>
