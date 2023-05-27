@@ -22,7 +22,7 @@
     <nav id="navBarId" class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
-                <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                <h1 class="logo">Estação Energia</h1>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -42,8 +42,12 @@
                     Comparativo Tensao e Corrente
                 </a>
 
-                <a class="navbar-item" href="/InformacoesPotencia">
-                    Info Potencia
+                <a class="navbar-item" href="/Demanda">
+                    Demanda de Potecia
+                </a>
+
+                <a class="navbar-item" href="/PotenciaAtiva">
+                    Potecia Ativa
                 </a>
             </div>
         </div>
@@ -69,8 +73,11 @@
                     require __DIR__. '/Front/comparativoTensaoCorrente.php';
                     break;
 
-                case '/InformacoesPotencia':
-                    require __DIR__. '/Front/informacoesPotencia.php';
+                case '/PotenciaAtiva':
+                    require __DIR__. '/Front/potenciaAtiva.php';
+                    break;
+                case '/Demanda':
+                    require __DIR__. '/Front/demandaPotencia.php';
                     break;
 
                 
