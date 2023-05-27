@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\EstacaoEnergiaModel;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Exception;
 
 class EstacaoEnergiaController extends Controller
@@ -23,6 +24,10 @@ class EstacaoEnergiaController extends Controller
     public function consultarTodos()
     {
         return EstacaoEnergiaModel::all();
+    }
+
+    public function consultarPotenciaAtiva(){
+        return DB::table('estacao_energia')->pluck('Potencia_Ativa_kW');
     }
 
     // Criar um novo dado
