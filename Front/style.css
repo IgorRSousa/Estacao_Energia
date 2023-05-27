@@ -29,8 +29,8 @@ body{
 
 #PotenciaAtiva{
     margin-top: 2%;
-    margin-left: 38%;
-    margin-right: 38%;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 2%;
     text-align: center;
     background-color: rgb(203, 203, 203);
@@ -39,6 +39,6 @@ body{
 .potencia{
     color: rgb(17, 116, 12);
     font-family: 'Monomaniac One', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
 }
 
