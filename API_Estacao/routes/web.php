@@ -14,7 +14,7 @@ $router->patch("/estacao-energia/{id}", "EstacaoEnergiaController@alterar");
 
 $router->get("/estacao-media/{id}", "EstacaoMediaMensalController@consultaPorId");
 $router->get("/estacao-media", "EstacaoMediaMensalController@consultarTodos");
-$router->get("/estacao-media/potencia-ativa", "EstacaoMediaMensalController@consultarPotenciaAtiva");
+$router->get("/estacao-media/potencia", "EstacaoMediaMensalController@consultarPotenciaAtiva");
 $router->post("/estacao-media/inserir", "EstacaoMediaMensalController@inserir");
 $router->delete("/estacao-media/{id}", "EstacaoMediaMensalController@deletar");
 $router->patch("/estacao-media/{id}", "EstacaoMediaMensalController@alterar");
