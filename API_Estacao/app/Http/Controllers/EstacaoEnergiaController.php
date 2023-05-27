@@ -26,10 +26,6 @@ class EstacaoEnergiaController extends Controller
         return EstacaoEnergiaModel::all();
     }
 
-    public function consultarPotenciaAtiva(){
-        return DB::table('estacao_energia')->pluck('Potencia_Ativa_kW');
-    }
-
     // Criar um novo dado
     public function inserir(Request $request)
     {   
