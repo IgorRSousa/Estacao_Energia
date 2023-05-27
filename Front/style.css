@@ -1,6 +1,9 @@
 body{
     background-color: rgb(187, 187, 187);
-    min-height: 950px;
+}
+
+#footer{
+    background-color: rgb(187, 187, 187);
 }
 
 #myChart1, #myChart2 {
@@ -11,11 +14,31 @@ body{
     margin-bottom: 2%;
 }
 
+#myChart3{
+    max-height: 450px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #corpo{
     margin-right: 10%;
     margin-left: 10%;
-    margin-bottom: 2%;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+}
+
+#PotenciaAtiva{
+    margin-top: 2%;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: rgb(203, 203, 203);
+}
+
+.potencia{
+    color: rgb(17, 116, 12);
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 30px;
 }
 
