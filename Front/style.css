@@ -2,19 +2,22 @@ body{
     background-color: rgb(187, 187, 187);
 }
 
+#TituloInicial{
+    text-align: center;
+    margin-top: 1%;
+    min-height: 600px;
+}
+#textoApresentacao{
+    text-align: justify;
+    margin-right: 24%;
+    margin-left: 24%;
+}
+
 #footer{
     background-color: rgb(187, 187, 187);
 }
 
-#myChart1, #myChart2 {
-    max-width: 76%;
-    max-height: 380px;
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-bottom: 2%;
-}
-
-#myChart3, #myChart4{
+#myChart1, #myChart2 , #myChart3, #myChart4{
     max-height: 450px;
     margin-left: 10%;
     margin-right: 10%;
