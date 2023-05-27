@@ -15,6 +15,8 @@
 
     <script src="node_modules/chart.js/dist/chart.umd.js"></script>
 
+    <link rel="shortcut icon" href="Front/favicon/favicon.ico" type="image/x-icon">
+
     <title>Resultado Mineração</title>
 </head>
 <body>
@@ -38,8 +40,12 @@
                     Home
                 </a>
 
-                <a class="navbar-item" href="/Comparativo">
-                    Comparativo Tensao e Corrente
+                <a class="navbar-item" href="/ComparativoTensao">
+                    Comparativo Tensao
+                </a>
+
+                <a class="navbar-item" href="/ComparativoCorrente">
+                    Comparativo Corrente
                 </a>
 
                 <a class="navbar-item" href="/Demanda">
@@ -69,8 +75,11 @@
                     require __DIR__ . '/Front/home.php';
                     break;
                 
-                case '/Comparativo':
-                    require __DIR__. '/Front/comparativoTensaoCorrente.php';
+                case '/ComparativoTensao':
+                    require __DIR__. '/Front/comparativoTensao.php';
+                    break;
+                case '/ComparativoCorrente':
+                    require __DIR__. '/Front/comparativoCorrente.php';
                     break;
 
                 case '/PotenciaAtiva':
