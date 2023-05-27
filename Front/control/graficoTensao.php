@@ -58,7 +58,7 @@ elementosTensao.then(function(result) {
             plugins: {
                 title: {
                     display: true,
-                    text: 'Comparativo das Medias Diarias das Tensões',
+                    text: 'Comparativo das Medías Diárias das Tensões',
                 }
             },
             scales: {

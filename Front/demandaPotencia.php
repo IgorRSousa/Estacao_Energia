@@ -4,13 +4,13 @@
     $jsonDados = json_decode($dado);
     $mes = 7;
 
-    print("<h1 class='titulos'>Demanda de Potencia</h1>");
+    print("<h1 class='titulos'>Demanda de Potência</h1>");
 
     print('<div class="columns">');
     foreach($jsonDados as $chave => $valor){
         print "<div id='PotenciaAtiva' class='box column'>
-                    <h1>Media Mensal: $mes/2022</h1>
-                    <h1>Demanda Potencia (kW)</h1>
+                    <h1>Média Mensal: $mes/2022</h1>
+                    <h1>Demanda Potência (kW)</h1>
                     <h1 class ='potencia'>$valor kW</h1>
                 </div>";
               

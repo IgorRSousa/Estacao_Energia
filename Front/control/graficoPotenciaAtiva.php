@@ -8,7 +8,7 @@ elementosPotenciaDois.then(function(result) {
         data: {
         labels: result[0],
         datasets: [{
-            label: 'Potencia Ativa (kW)',
+            label: 'Potência Ativa (kW)',
             data: result[2],
             borderWidth: 1,     
         }]
@@ -17,7 +17,7 @@ elementosPotenciaDois.then(function(result) {
             plugins: {
                 title: {
                     display: true,
-                    text: 'Potencia Ativa em kW (Media Diarias)',
+                    text: 'Potência Ativa em kW (Media Diarias)',
                 }
             },
             scales: {

@@ -23,7 +23,7 @@
     print('<div class="columns">');
     foreach($mediasCorrente as $chave => $valor){
         print "<div id='PotenciaAtiva' class='box column'>
-                    <h1>Media do Periodo Total</h1>
+                    <h1>Média do Período Total</h1>
                     <h1>Corrente em $chave (A)</h1>
                     <h1 class ='potencia'>$valor A</h1>
                 </div>";

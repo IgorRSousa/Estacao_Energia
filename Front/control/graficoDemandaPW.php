@@ -8,7 +8,7 @@ elementosPotencia.then(function(result) {
         data: {
         labels: result[0],
         datasets: [{
-            label: 'Demanda de Potencia (kW)',
+            label: 'Demanda de Potência (kW)',
             data: result[1],
             borderWidth: 1,     
         }]
@@ -17,7 +17,7 @@ elementosPotencia.then(function(result) {
             plugins: {
                 title: {
                     display: true,
-                    text: 'Demanda Diarias de potencia em kW',
+                    text: 'Demanda Diarias de Potência em kW',
                 }
             },
             scales: {

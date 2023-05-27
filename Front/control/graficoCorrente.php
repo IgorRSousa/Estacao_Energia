@@ -56,7 +56,7 @@ elementosCorrente.then(function(result) {
             plugins: {
                 title: {
                     display: true,
-                    text: 'Comparativo das Medias Diarias das Correntes',
+                    text: 'Comparativo das Medías Diárias das Correntes',
                 }
             },
             scales: {
