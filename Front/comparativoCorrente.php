@@ -1,4 +1,4 @@
-<h1 class='titulos'>Comparativo das Tensões</h1>
+<h1 class='titulos'>Comparativo das Correntes</h1>
 
 <?php
     $url = 'http://localhost:8000/estacao-media';

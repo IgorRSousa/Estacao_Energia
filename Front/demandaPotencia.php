@@ -10,7 +10,7 @@
     foreach($jsonDados as $chave => $valor){
         print "<div id='PotenciaAtiva' class='box column'>
                     <h1>Media Mensal: $mes/2022</h1>
-                    <h1>Potenctencia Ativa (kW)</h1>
+                    <h1>Demanda Potencia (kW)</h1>
                     <h1 class ='potencia'>$valor kW</h1>
                 </div>";
               
