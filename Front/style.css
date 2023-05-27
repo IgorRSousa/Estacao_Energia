@@ -14,10 +14,11 @@ body{
     margin-bottom: 2%;
 }
 
-#myChart3{
+#myChart3, #myChart4{
     max-height: 450px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 2%;
 }
 
 #corpo{
@@ -40,5 +41,17 @@ body{
     color: rgb(17, 116, 12);
     font-family: 'Monomaniac One', sans-serif;
     font-size: 28px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 28px;
+}
+
+.titulos{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 1%;
 }
 
