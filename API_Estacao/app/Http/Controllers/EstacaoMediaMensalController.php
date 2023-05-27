@@ -27,7 +27,7 @@ class EstacaoMediaMensalController extends Controller
     }
 
     public function consultarPotenciaAtiva(){
-        return DB::table('estacao_media_mensal')->pluck('Potencia_Ativa_kW');
+        return DB::table('estacao_media_mensal')->pluck('Demanda_kW','Potencia_Ativa_kW');
     }
 
     // Criar um novo dado
