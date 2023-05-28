@@ -103,3 +103,29 @@ exibição do resultado que será visto.
 ### Passo Final: 
 
 - Pronto basta ir até o seu navegador e colocar a url `http://localhost:5000/` e o sistema estará rodando !
+
+## Imagens das Telas do sistema
+
+### Home `http://localhost:5000/`:
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/c1ba8803-df28-4778-8dd1-d1476904210f)
+
+### Comparativo das Tensões `http://localhost:5000/ComparativoTensao`:
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/1b059476-c013-4f73-90a6-c6b979aa4ca8)
+
+### Comparativo das Correntes `http://localhost:5000/ComparativoCorrente`:
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/9b021b2d-5b3d-4ee0-ac94-db1faab4b4b5)
+
+### Demanda de Potência `http://localhost:5000/Demanda`: 
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/13e60731-7496-4444-afc1-297a5aa91259)
+
+### Potência Ativa `http://localhost:5000/PotenciaAtiva`:
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/ee5730d5-7568-4e25-8432-2f9f51dbcf3e)
+
+### Ao Clicar no botão azul na parte superior direita (Cria um arquivo CSV):
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/742b15d4-b43b-4ad7-a65f-c09cbf57b55c)
+
+
+
+
+
+
