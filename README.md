@@ -121,8 +121,16 @@ exibição do resultado que será visto.
 ### Potência Ativa `http://localhost:5000/PotenciaAtiva`:
 ![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/ee5730d5-7568-4e25-8432-2f9f51dbcf3e)
 
-### Ao clicar no botão azul na parte superior direita (Cria um arquivo CSV):
+## Como gerar e consultar o Arquivo limpo
+
+### Clique no botão Gerar Arquivo Limpo
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/0faeb8fe-797c-48f5-94d3-dfd2adf39e6d)
+
+### E essa menssagem será exibida: 
 ![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/742b15d4-b43b-4ad7-a65f-c09cbf57b55c)
+
+### Ao clicar no botão azul na parte superior direita é criado um arquivo CSV na pasta `/Estacao_Energia/Resultado/Resultado.csv`:
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/a20b7168-9571-4baf-be55-1c1a76ebed5a)
 
 ### Arquivo criado (Excel):
 ![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/c8bda1df-103c-4fad-b03d-a1e29b1162ea)
