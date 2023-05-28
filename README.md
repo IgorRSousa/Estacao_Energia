@@ -10,7 +10,7 @@ exibição do resultado que será visto.
 
 ### Tecnologias
 
-#### Marcação
+#### Linguagem de Marcação
 - HTML 5 
 - CSS 3 
 
