@@ -47,6 +47,8 @@ exibição do resultado que será visto.
 
 ## Como testar o Projeto
 
+##### Obs: Tecnologias citadas anteriormente precisam estar instaladas (Node.js, PostgreSQL, Composer e PHP)
+
 ### Passo 1:
 
 - Clone o repositorio atual, escolha uma pasta onde deseja colocar o projeto: 
@@ -57,3 +59,7 @@ exibição do resultado que será visto.
 
 - Abra o projeto que foi clonado e abra a pasta da API, nela copie e cole o arquivo .env.example e o renomei com .env.
   -  `./Estacao_Energia/API_Estacao/.env.example` -> `./Estacao_Energia/API_Estacao/.env`
+
+### Passo 3: 
+
+- Configure o banco de da
