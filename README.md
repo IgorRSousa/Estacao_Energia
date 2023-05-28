@@ -121,7 +121,7 @@ exibição do resultado que será visto.
 ### Potência Ativa `http://localhost:5000/PotenciaAtiva`:
 ![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/ee5730d5-7568-4e25-8432-2f9f51dbcf3e)
 
-### Ao Clicar no botão azul na parte superior direita (Cria um arquivo CSV):
+### Ao clicar no botão azul na parte superior direita (Cria um arquivo CSV):
 ![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/742b15d4-b43b-4ad7-a65f-c09cbf57b55c)
 
 
