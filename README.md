@@ -124,6 +124,10 @@ exibição do resultado que será visto.
 ### Ao clicar no botão azul na parte superior direita (Cria um arquivo CSV):
 ![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/742b15d4-b43b-4ad7-a65f-c09cbf57b55c)
 
+### Arquivo criado (Excel):
+![image](https://github.com/IgorRSousa/Estacao_Energia/assets/106490786/c8bda1df-103c-4fad-b03d-a1e29b1162ea)
+
+
 
 
 
