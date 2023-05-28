@@ -52,3 +52,8 @@ exibição do resultado que será visto.
 - Clone o repositorio atual, escolha uma pasta onde deseja colocar o projeto: 
 
       git clone  https://github.com/IgorRSousa/Estacao_Energia.git
+ 
+### Passo 2:
+
+- Abra o projeto que foi clonado e abra a pasta da API, nela copie e cole o arquivo .env.example e o renomei com .env.
+  -  `./Estacao_Energia/API_Estacao/.env.example` -> `./Estacao_Energia/API_Estacao/.env`
