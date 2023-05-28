@@ -12,7 +12,7 @@ class EstacaoEnergiaSeeder extends Seeder
 {
     public function run(): void
     {   
-        $file = fopen("C:\Users\IgorR\OneDrive\Área de Trabalho\Estacao_Energia\ArquivosComOsDados\Estação_Energia.csv", "r");
+        $file = fopen("../ArquivosComOsDados/Estação_Energia.csv", "r");
         $row = 0;
 
         $dataAnterior = "";
