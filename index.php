@@ -61,7 +61,7 @@
                 <div class="navbar-item">
                     <div class="buttons">
                         <a class="button is-primary" href="/CriarArquivo">
-                            <strong>Criar Arquivo</strong>
+                            <strong>Gerar Arquivo Limpo</strong>
                         </a>
                     </div>
                 </div>
