@@ -56,6 +56,16 @@
                     Potecia Ativa
                 </a>
             </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="/CriarArquivo">
+                            <strong>Criar Arquivo</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -87,6 +97,10 @@
                     break;
                 case '/Demanda':
                     require __DIR__. '/Front/demandaPotencia.php';
+                    break;
+                
+                case '/CriarArquivo':
+                    require __DIR__. '/Front/control/criarArquivo.php';
                     break;
 
                 
