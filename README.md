@@ -76,9 +76,9 @@ exibição do resultado que será visto.
 
 ### Passo 5: 
 
-- Instale o composer na API (cmd):
+- Instale o composer na API pasta `.\Estacao_Energia\API_Estacao>` (cmd):
 
-      .\Estacao_Energia\API_Estacao>composer install
+      composer install
       
 ### Passo 6:
 
